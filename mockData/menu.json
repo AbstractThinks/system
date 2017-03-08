@@ -1,0 +1,104 @@
+{
+	"data" : {
+		"Menu" : [{
+	        "title": "人事管理",
+	        "Submenus": [
+	            {
+	                "name": "个人中心",
+	                "iconFont": "user icon",
+	                "url": "personal"
+	            },
+	            {
+	                "name": "人事管理",
+	                "iconFont": "users icon",
+	                "url": "personnel"
+	            },
+	            {
+	                "name": "他人信息",
+	                "iconFont": "user outline",
+	                "url": "other"
+	            }
+	        ]
+	    },{
+	        "title": "资源平台",
+	        "Submenus": [
+	            {
+	                "name": "我的资源",
+	                "iconFont": "file text icon",
+	                "url": "myresources"
+	            },
+	            {
+	                "name": "资源审核",
+	                "iconFont": "bulls eye icon",
+	                "url": "auditing"
+	            },
+	            {
+	                "name": "资源中心",
+	                "iconFont": "grid layout icon",
+	                "url": "resources"
+	            }
+	        ]
+	    },{
+	        "title": "资产管理",
+	        "Submenus": [
+	            {
+	                "name": "我的资产",
+	                "iconFont": "money icon",
+	                "url": "assets"
+	            }
+	        ]
+	    },{
+	        "title": "学生管理",
+	        "Submenus": [
+	            {
+	                "name": "学籍管理",
+	                "iconFont": "money icon",
+	                "url": "student"
+	            }, {
+	                "name": "成绩分析",
+	                "iconFont": "money icon",
+	                "url": "achievementanalysis"
+	            }, {
+	                "name": "学生成长档案",
+	                "iconFont": "money icon",
+	                "url": "growthfile"
+	            }, {
+	                "name": "学生生涯计划",
+	                "iconFont": "money icon",
+	                "url": "careerplan"
+	            }
+	        ]
+	    },{
+	        "title": "课程管理平台",
+	        "Submenus": [
+	            {
+	                "name": "开课管理",
+	                "iconFont": "money icon",
+	                "url": "assets"
+	            },
+	            {
+	                "name": "智能排课",
+	                "iconFont": "money icon",
+	                "url": "assets"
+	            },{
+	                "name": "在线选课",
+	                "iconFont": "money icon",
+	                "url": "assets"
+	            }
+	        ]
+	    },{
+	        "title": "协同备课平台",
+	        "Submenus": [
+	            {
+	                "name": "智能排课",
+	                "iconFont": "money icon",
+	                "url": "assets"
+	            },{
+	                "name": "在线选课",
+	                "iconFont": "money icon",
+	                "url": "assets"
+	            }
+	        ]
+	    }]
+	}
+}

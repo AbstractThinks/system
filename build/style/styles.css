@@ -1,0 +1,407 @@
+/**
+ * global
+ */
+html.ios, html.ios body, html, body, my-app {
+  height: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: block !important;
+  background-color: white !important; }
+
+body > div.pusher {
+  height: 100% !important; }
+
+body > .ui.vertical.menu .item > .header:not(.ui) {
+  font-size: 1.5em; }
+
+.full-width {
+  width: 100%; }
+
+.full-height {
+  height: 100%; }
+
+.font-size12 {
+  font-size: 12px !important; }
+
+.font-size24 {
+  font-size: 24px !important; }
+
+.font-size36 {
+  font-size: 36px !important; }
+
+.font-size48 {
+  font-size: 48px !important; }
+
+.font-size60 {
+  font-size: 60px !important; }
+
+.font-size72 {
+  font-size: 72px !important; }
+
+.font-size84 {
+  font-size: 84px !important; }
+
+.font-size96 {
+  font-size: 96px !important; }
+
+.font-size108 {
+  font-size: 108px !important; }
+
+.font-size120 {
+  font-size: 120px !important; }
+
+.pd0 {
+  padding: 0px !important; }
+
+.pd8 {
+  padding: 8px !important; }
+
+.pd16 {
+  padding: 16px !important; }
+
+.pd24 {
+  padding: 24px !important; }
+
+.pd32 {
+  padding: 32px !important; }
+
+.pd40 {
+  padding: 40px !important; }
+
+.pd48 {
+  padding: 48px !important; }
+
+.pd56 {
+  padding: 56px !important; }
+
+.pd64 {
+  padding: 64px !important; }
+
+.pd72 {
+  padding: 72px !important; }
+
+.mg0 {
+  margin: 0px; }
+
+.mg8 {
+  margin: 8px; }
+
+.mg16 {
+  margin: 16px; }
+
+.mg24 {
+  margin: 24px; }
+
+.mg32 {
+  margin: 32px; }
+
+.mg40 {
+  margin: 40px; }
+
+.mg48 {
+  margin: 48px; }
+
+.mg56 {
+  margin: 56px; }
+
+.mg64 {
+  margin: 64px; }
+
+.mg72 {
+  margin: 72px; }
+
+.mg-tb0 {
+  margin-left: 0px !important;
+  margin-right: 0px !important; }
+
+.mg-tb8 {
+  margin-left: 8px !important;
+  margin-right: 8px !important; }
+
+.mg-tb16 {
+  margin-left: 16px !important;
+  margin-right: 16px !important; }
+
+.mg-tb24 {
+  margin-left: 24px !important;
+  margin-right: 24px !important; }
+
+.mg-tb32 {
+  margin-left: 32px !important;
+  margin-right: 32px !important; }
+
+.mg-tb40 {
+  margin-left: 40px !important;
+  margin-right: 40px !important; }
+
+.mg-tb48 {
+  margin-left: 48px !important;
+  margin-right: 48px !important; }
+
+.mg-tb56 {
+  margin-left: 56px !important;
+  margin-right: 56px !important; }
+
+.mg-tb64 {
+  margin-left: 64px !important;
+  margin-right: 64px !important; }
+
+.mg-tb72 {
+  margin-left: 72px !important;
+  margin-right: 72px !important; }
+
+.pd-rl0 {
+  padding-left: 0px !important;
+  padding-right: 0px !important; }
+
+.pd-rl8 {
+  padding-left: 8px !important;
+  padding-right: 8px !important; }
+
+.pd-rl16 {
+  padding-left: 16px !important;
+  padding-right: 16px !important; }
+
+.pd-rl24 {
+  padding-left: 24px !important;
+  padding-right: 24px !important; }
+
+.pd-rl32 {
+  padding-left: 32px !important;
+  padding-right: 32px !important; }
+
+.pd-rl40 {
+  padding-left: 40px !important;
+  padding-right: 40px !important; }
+
+.pd-rl48 {
+  padding-left: 48px !important;
+  padding-right: 48px !important; }
+
+.pd-rl56 {
+  padding-left: 56px !important;
+  padding-right: 56px !important; }
+
+.pd-rl64 {
+  padding-left: 64px !important;
+  padding-right: 64px !important; }
+
+.pd-rl72 {
+  padding-left: 72px !important;
+  padding-right: 72px !important; }
+
+.primary-color {
+  background-color: #009688 !important; }
+
+pagination-container {
+  display: block;
+  width: 100%;
+  text-align: center; }
+
+.text-768-right {
+  text-align: center; }
+
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px; }
+
+/**
+ * login
+ */
+login1-form {
+  display: block;
+  height: 100%;
+  padding: 32px; }
+  login1-form .ui.grid {
+    height: 100%; }
+  login1-form .ui.grid > .row > .column + .divider {
+    left: 50%;
+    height: 50%; }
+  login1-form sm-segment {
+    display: block;
+    max-width: 400px;
+    display: inline-block; }
+
+/**
+ * content
+ */
+content-container > .ui.container {
+  padding: 24px 0px 80px;
+  min-height: 100%; }
+
+.sidebar .ui.accordion .title {
+  color: rgba(255, 255, 255, 0.9) !important; }
+
+.custom-nav-class {
+  z-index: 1000;
+  width: 100%; }
+
+.custom-nav-class sm-segment > div.ui.segment {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0; }
+
+.custom-nav-class sm-segment > div > p {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-align-items: center;
+          align-items: center; }
+
+.sidebar.ui.labeled.icon.menu > a.item {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  -webkit-align-items: center;
+          align-items: center; }
+
+/**
+ * content-personal-container
+ */
+content-personal-container form.ui.form {
+  padding: 24px 8px; }
+
+content-personal-container .ui.list.animated.divided.relaxed:after {
+  display: block;
+  content: "clear";
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden; }
+
+/**
+ * personnel-component
+ */
+personnel-component {
+  display: block;
+  width: 100%; }
+
+/**
+ * content-index-container
+ */
+content-index-container .section1 {
+  position: relative;
+  padding: 64px 0px; }
+  content-index-container .section1 h2 {
+    text-align: center; }
+
+content-index-container .section2 {
+  background-color: #BFE7CD;
+  position: relative;
+  padding: 48px 0px;
+  margin: 60px 0px; }
+  content-index-container .section2 > div > .column {
+    text-align: center; }
+  content-index-container .section2 > div > .column h4 a {
+    color: #fff;
+    transition: 0.5s all; }
+    content-index-container .section2 > div > .column h4 a:hover {
+      color: #000000; }
+  content-index-container .section2 > div > .column p {
+    color: #033C17;
+    text-align: left; }
+  content-index-container .section2:before {
+    content: '';
+    position: absolute;
+    background: url(/build/assets/index_content_bg1.png) no-repeat;
+    background-size: 100% 100%;
+    height: 60px;
+    z-index: 9;
+    top: -59px;
+    width: 100%;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg); }
+  content-index-container .section2:after {
+    content: '';
+    position: absolute;
+    background: url(/build/assets/index_content_bg1.png) no-repeat;
+    background-size: 100% 100%;
+    height: 60px;
+    z-index: 9;
+    bottom: -59px;
+    width: 100%; }
+
+content-index-container .section3 {
+  position: relative;
+  padding: 48px 0px; }
+
+content-index-container .section4 {
+  position: relative;
+  padding: 48px 0px;
+  margin: 60px 0px;
+  background: #2c333d;
+  color: #BFBFBF; }
+  content-index-container .section4:before {
+    content: '';
+    position: absolute;
+    background: url(/build/assets/index_content_bg2.png) no-repeat;
+    background-size: 100% 100%;
+    height: 60px;
+    z-index: 9;
+    top: -59px;
+    width: 100%;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg); }
+
+/**
+ * student
+ */
+@media screen and (min-width: 768px) {
+  /**
+     * global
+     */
+  .text-768-right {
+    text-align: right; }
+  pagination-container {
+    text-align: right; }
+  /**
+     * login
+     */
+  login1-form .ui.grid > .row > .column {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+    -webkit-justify-content: center;
+            justify-content: center;
+    padding: 24px; }
+  login1-form .ui.grid > .row > .column.login-left {
+    -webkit-align-items: flex-end;
+            align-items: flex-end;
+    padding-right: 80px; }
+  login1-form .ui.grid > .row > .column.login-right {
+    -webkit-align-items: flex-start;
+            align-items: flex-start;
+    padding-left: 80px; } }
+
+@media screen and (max-width: 767px) {
+  /**
+     * login
+     */
+  login1-form .ui.grid > .row > .column {
+    text-align: center; }
+  login1-form .login-left > div {
+    max-width: 210px;
+    display: inline-block;
+    margin-top: 10%; }
+  /**
+     * index
+     */
+  .section1, .section2, .section3, .section4 {
+    margin-left: -1em !important;
+    margin-right: -1em !important; } }
+
+/*# sourceMappingURL=styles.css.map*/

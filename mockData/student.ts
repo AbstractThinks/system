@@ -1,0 +1,95 @@
+export const Students:any = {
+	"data" : {
+		"column" : [{
+			"name":"姓名"
+		},{
+			"name":"学段"
+		},{
+			"name":"班级"
+		},{
+			"name":"入学年度"
+		},{
+			"name":"学籍号"
+		},{
+			"name":"校内学号"
+		},{
+			"name":"班内学号"
+		},{
+			"name":"教育id号"
+		},{
+			"name":"性别"
+		},{
+			"name":"名族"
+		},{
+			"name":"在校状态"
+		}],
+		"datas":[
+			{
+				"studentName":"杨郑羽",
+				"studentGrade":"小学",
+				"studentClass":"1年级-6班",
+				"entryYear":"2016",
+				"schooNum":"9900000",
+				"schoolId":"9900000",
+				"classId":"9900000",
+				"educationId":"9900000",
+				"sex":"女",
+				"nation":"汉",
+				"status":"在校",
+
+			},{
+				"studentName":"杨郑羽",
+				"studentGrade":"小学",
+				"studentClass":"1年级-6班",
+				"entryYear":"2016",
+				"schooNum":"9900000",
+				"schoolId":"9900000",
+				"classId":"9900000",
+				"educationId":"9900000",
+				"sex":"女",
+				"nation":"汉",
+				"status":"在校",
+
+			},{
+				"studentName":"杨郑羽",
+				"studentGrade":"小学",
+				"studentClass":"1年级-6班",
+				"entryYear":"2016",
+				"schooNum":"9900000",
+				"schoolId":"9900000",
+				"classId":"9900000",
+				"educationId":"9900000",
+				"sex":"女",
+				"nation":"汉",
+				"status":"在校",
+
+			},{
+				"studentName":"杨郑羽",
+				"studentGrade":"小学",
+				"studentClass":"1年级-6班",
+				"entryYear":"2016",
+				"schooNum":"9900000",
+				"schoolId":"9900000",
+				"classId":"9900000",
+				"educationId":"9900000",
+				"sex":"女",
+				"nation":"汉",
+				"status":"在校",
+
+			},{
+				"studentName":"杨郑羽",
+				"studentGrade":"小学",
+				"studentClass":"1年级-6班",
+				"entryYear":"2016",
+				"schooNum":"9900000",
+				"schoolId":"9900000",
+				"classId":"9900000",
+				"educationId":"9900000",
+				"sex":"女",
+				"nation":"汉",
+				"status":"在校",
+
+			}
+		]
+	}
+}

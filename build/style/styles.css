@@ -1,13 +1,19 @@
 /**
  * global
  */
-html.ios, html.ios body, html, body, my-app {
+html.ios, html.ios body, html, body, my-app, content-container {
   height: 100% !important;
   width: 100% !important;
   margin: 0 !important;
   padding: 0 !important;
   display: block !important;
   background-color: white !important; }
+
+body, .pushable > .pusher {
+  overflow: inherit !important; }
+
+.pushable > .pusher.dimmable.dimmed {
+  overflow: hidden !important; }
 
 body > div.pusher {
   height: 100% !important; }
@@ -111,45 +117,85 @@ body > .ui.vertical.menu .item > .header:not(.ui) {
 .mg72 {
   margin: 72px; }
 
-.mg-tb0 {
+.mg-rl0 {
   margin-left: 0px !important;
   margin-right: 0px !important; }
 
-.mg-tb8 {
+.mg-rl8 {
   margin-left: 8px !important;
   margin-right: 8px !important; }
 
-.mg-tb16 {
+.mg-rl16 {
   margin-left: 16px !important;
   margin-right: 16px !important; }
 
-.mg-tb24 {
+.mg-rl24 {
   margin-left: 24px !important;
   margin-right: 24px !important; }
 
-.mg-tb32 {
+.mg-rl32 {
   margin-left: 32px !important;
   margin-right: 32px !important; }
 
-.mg-tb40 {
+.mg-rl40 {
   margin-left: 40px !important;
   margin-right: 40px !important; }
 
-.mg-tb48 {
+.mg-rl48 {
   margin-left: 48px !important;
   margin-right: 48px !important; }
 
-.mg-tb56 {
+.mg-rl56 {
   margin-left: 56px !important;
   margin-right: 56px !important; }
 
-.mg-tb64 {
+.mg-rl64 {
   margin-left: 64px !important;
   margin-right: 64px !important; }
 
-.mg-tb72 {
+.mg-rl72 {
   margin-left: 72px !important;
   margin-right: 72px !important; }
+
+.mg-tb0 {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important; }
+
+.mg-tb8 {
+  margin-top: 8px !important;
+  margin-bottom: 8px !important; }
+
+.mg-tb16 {
+  margin-top: 16px !important;
+  margin-bottom: 16px !important; }
+
+.mg-tb24 {
+  margin-top: 24px !important;
+  margin-bottom: 24px !important; }
+
+.mg-tb32 {
+  margin-top: 32px !important;
+  margin-bottom: 32px !important; }
+
+.mg-tb40 {
+  margin-top: 40px !important;
+  margin-bottom: 40px !important; }
+
+.mg-tb48 {
+  margin-top: 48px !important;
+  margin-bottom: 48px !important; }
+
+.mg-tb56 {
+  margin-top: 56px !important;
+  margin-bottom: 56px !important; }
+
+.mg-tb64 {
+  margin-top: 64px !important;
+  margin-bottom: 64px !important; }
+
+.mg-tb72 {
+  margin-top: 72px !important;
+  margin-bottom: 72px !important; }
 
 .pd-rl0 {
   padding-left: 0px !important;
@@ -191,6 +237,46 @@ body > .ui.vertical.menu .item > .header:not(.ui) {
   padding-left: 72px !important;
   padding-right: 72px !important; }
 
+.pd-tb0 {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important; }
+
+.pd-tb8 {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important; }
+
+.pd-tb16 {
+  padding-top: 16px !important;
+  padding-bottom: 16px !important; }
+
+.pd-tb24 {
+  padding-top: 24px !important;
+  padding-bottom: 24px !important; }
+
+.pd-tb32 {
+  padding-top: 32px !important;
+  padding-bottom: 32px !important; }
+
+.pd-tb40 {
+  padding-top: 40px !important;
+  padding-bottom: 40px !important; }
+
+.pd-tb48 {
+  padding-top: 48px !important;
+  padding-bottom: 48px !important; }
+
+.pd-tb56 {
+  padding-top: 56px !important;
+  padding-bottom: 56px !important; }
+
+.pd-tb64 {
+  padding-top: 64px !important;
+  padding-bottom: 64px !important; }
+
+.pd-tb72 {
+  padding-top: 72px !important;
+  padding-bottom: 72px !important; }
+
 .primary-color {
   background-color: #009688 !important; }
 
@@ -212,6 +298,18 @@ pagination-container {
   background-size: cover;
   width: 300px;
   height: 300px; }
+
+/**
+ * menus
+ */
+menus-component .cards .card .header {
+  background: #009688;
+  text-align: center;
+  color: white; }
+  menus-component .cards .card .header i {
+    font-size: 3.5em;
+    transition: 1s;
+    color: white; }
 
 /**
  * login
@@ -388,6 +486,12 @@ content-index-container .section4 {
     padding-left: 80px; } }
 
 @media screen and (max-width: 767px) {
+  /**
+     * global
+     */
+  .ui.menu {
+    -webkit-flex-wrap: wrap;
+            flex-wrap: wrap; }
   /**
      * login
      */

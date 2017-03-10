@@ -9861,14 +9861,14 @@ var /** @type {?} */ VERSION = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+//本地
+// export const urlDomain:string = "/mockData/";
+// export const urlDomainModule:string = "/mockData/";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-//本地
-exports.urlDomain = "/mockData/";
-exports.urlDomainModule = "/mockData/";
 //github
-// export const urlDomain:string = "/system/mockData/";
-// export const urlDomainModule:string = "/system/mockData/"; 
+exports.urlDomain = "/system/mockData/";
+exports.urlDomainModule = "/system/mockData/";
 
 
 /***/ }),
